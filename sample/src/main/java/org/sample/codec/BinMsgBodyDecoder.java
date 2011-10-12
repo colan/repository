@@ -13,7 +13,6 @@ public class BinMsgBodyDecoder implements MessageDecoder {
 	MsgFactory msgFactory;
 	
 	public BinMsgBodyDecoder(MsgFactory msgFactory) {
-		super();
 		this.msgFactory = msgFactory;
 	}
 
@@ -52,8 +51,7 @@ public class BinMsgBodyDecoder implements MessageDecoder {
 	}
 
 	@Override
-	public void finishDecode(IoSession arg0, ProtocolDecoderOutput arg1)
-			throws Exception {
-		//do nothing
+	public void finishDecode(IoSession arg0, ProtocolDecoderOutput arg1) throws Exception {
+		
 	}
 }
