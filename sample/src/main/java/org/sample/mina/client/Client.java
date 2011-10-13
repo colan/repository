@@ -1,4 +1,4 @@
-package org.sample.client;
+package org.sample.mina.client;
 
 
 import java.net.InetAddress;
@@ -11,8 +11,8 @@ import org.apache.mina.filter.codec.ProtocolCodecFactory;
 import org.apache.mina.filter.codec.ProtocolCodecFilter;
 import org.apache.mina.transport.socket.SocketConnector;
 import org.apache.mina.transport.socket.nio.NioSocketConnector;
-import org.sample.handler.BizHandler;
-import org.sample.handler.MsgHandler;
+import org.sample.mina.handler.BizHandler;
+import org.sample.mina.handler.MsgHandler;
 
 public class Client {
 	

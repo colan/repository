@@ -1,7 +1,7 @@
-package org.sample.codec;
+package org.sample.mina.codec;
 
 import org.apache.mina.filter.codec.demux.DemuxingProtocolCodecFactory;
-import org.sample.protocol.BinMsgBody;
+import org.sample.mina.protocol.BinMsgBody;
 
 
 public class MsgBodyProtocolCodecFactory extends DemuxingProtocolCodecFactory {

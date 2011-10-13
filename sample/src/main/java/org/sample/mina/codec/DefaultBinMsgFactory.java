@@ -1,8 +1,8 @@
-package org.sample.codec;
+package org.sample.mina.codec;
 
-import org.sample.protocol.BinMsgBody;
-import org.sample.protocol.DemoMsg11;
-import org.sample.protocol.DemoMsg12;
+import org.sample.mina.protocol.BinMsgBody;
+import org.sample.mina.protocol.DemoMsg11;
+import org.sample.mina.protocol.DemoMsg12;
 
 
 public class DefaultBinMsgFactory implements MsgFactory {

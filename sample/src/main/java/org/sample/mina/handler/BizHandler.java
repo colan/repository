@@ -1,4 +1,4 @@
-package org.sample.handler;
+package org.sample.mina.handler;
 
 
 import org.apache.mina.core.session.IoSession;

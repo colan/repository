@@ -1,13 +1,13 @@
-package org.sample;
+package org.sample.mina;
 
 import java.net.UnknownHostException;
 
 import org.apache.mina.core.session.IoSession;
-import org.sample.client.Client;
-import org.sample.codec.DefaultBinMsgFactory;
-import org.sample.codec.MsgBodyProtocolCodecFactory;
-import org.sample.codec.MsgFactory;
-import org.sample.protocol.DemoMsg11;
+import org.sample.mina.client.Client;
+import org.sample.mina.codec.DefaultBinMsgFactory;
+import org.sample.mina.codec.MsgBodyProtocolCodecFactory;
+import org.sample.mina.codec.MsgFactory;
+import org.sample.mina.protocol.DemoMsg11;
 
 
 public class ClientMain {

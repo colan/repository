@@ -1,4 +1,4 @@
-package org.sample.protocol;
+package org.sample.mina.protocol;
 
 import org.apache.mina.core.buffer.IoBuffer;
 

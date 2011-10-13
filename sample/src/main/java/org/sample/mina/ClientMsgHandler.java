@@ -1,7 +1,7 @@
-package org.sample;
+package org.sample.mina;
 
 import org.apache.mina.core.session.IoSession;
-import org.sample.handler.MsgHandler;
+import org.sample.mina.handler.MsgHandler;
 
 
 public class ClientMsgHandler implements MsgHandler {

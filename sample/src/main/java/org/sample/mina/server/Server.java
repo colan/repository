@@ -1,4 +1,4 @@
-package org.sample.server;
+package org.sample.mina.server;
 
 
 import java.io.IOException;
@@ -9,8 +9,8 @@ import org.apache.mina.filter.codec.ProtocolCodecFactory;
 import org.apache.mina.filter.codec.ProtocolCodecFilter;
 import org.apache.mina.transport.socket.SocketAcceptor;
 import org.apache.mina.transport.socket.nio.NioSocketAcceptor;
-import org.sample.handler.BizHandler;
-import org.sample.handler.MsgHandler;
+import org.sample.mina.handler.BizHandler;
+import org.sample.mina.handler.MsgHandler;
 
 public class Server {
 	

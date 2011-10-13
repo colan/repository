@@ -1,4 +1,4 @@
-package org.sample;
+package org.sample.mina;
 
 import java.io.File;
 import java.io.IOException;

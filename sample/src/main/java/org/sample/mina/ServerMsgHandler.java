@@ -1,9 +1,9 @@
-package org.sample;
+package org.sample.mina;
 
 
 import org.apache.mina.core.session.IoSession;
-import org.sample.handler.MsgHandler;
-import org.sample.protocol.DemoMsg12;
+import org.sample.mina.handler.MsgHandler;
+import org.sample.mina.protocol.DemoMsg12;
 
 
 public class ServerMsgHandler implements MsgHandler {
