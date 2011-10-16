@@ -3,9 +3,6 @@ import java.net.UnknownHostException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import com.mongodb.MongoException;
-
-
 public class Test {
 
 	/**
