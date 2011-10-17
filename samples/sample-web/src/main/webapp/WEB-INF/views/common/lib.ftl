@@ -1,1 +1,0 @@
-<#assign jsPath='${contextPath}/js' >
